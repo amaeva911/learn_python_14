@@ -1,0 +1,2478 @@
+п»їtelegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x03BF7DF0>: Failed to establish a new connection: [WinError 10013] РЎРґРµР»Р°РЅР° РїРѕРїС‹С‚РєР° РґРѕСЃС‚СѓРїР° Рє СЃРѕРєРµС‚Сѓ РјРµС‚РѕРґРѕРј, Р·Р°РїСЂРµС‰РµРЅРЅС‹Рј РїСЂР°РІР°РјРё РґРѕСЃС‚СѓРїР°')': /bot635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8/getMe
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x03BF7EB0>: Failed to establish a new connection: [WinError 10013] РЎРґРµР»Р°РЅР° РїРѕРїС‹С‚РєР° РґРѕСЃС‚СѓРїР° Рє СЃРѕРєРµС‚Сѓ РјРµС‚РѕРґРѕРј, Р·Р°РїСЂРµС‰РµРЅРЅС‹Рј РїСЂР°РІР°РјРё РґРѕСЃС‚СѓРїР°')': /bot635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8/getMe
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x03BF7F50>: Failed to establish a new connection: [WinError 10013] РЎРґРµР»Р°РЅР° РїРѕРїС‹С‚РєР° РґРѕСЃС‚СѓРїР° Рє СЃРѕРєРµС‚Сѓ РјРµС‚РѕРґРѕРј, Р·Р°РїСЂРµС‰РµРЅРЅС‹Рј РїСЂР°РІР°РјРё РґРѕСЃС‚СѓРїР°')': /bot635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8/getMe
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+root - INFO - Р‘РѕС‚ Р·Р°РїСѓСЃРєР°РµС‚СЃСЏ
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 22:33:07,768 - INFO - Р‘РѕС‚ Р·Р°РїСѓСЃРєР°РµС‚СЃСЏ
+2019-09-13 22:33:35,242 - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'РЈРґР°Р»РµРЅРЅС‹Р№ С…РѕСЃС‚ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕ СЂР°Р·РѕСЂРІР°Р» СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ', None, 10054, None))
+2019-09-13 22:33:35,242 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] РЈРґР°Р»РµРЅРЅС‹Р№ С…РѕСЃС‚ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕ СЂР°Р·РѕСЂРІР°Р» СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'РЈРґР°Р»РµРЅРЅС‹Р№ С…РѕСЃС‚ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕ СЂР°Р·РѕСЂРІР°Р» СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'РЈРґР°Р»РµРЅРЅС‹Р№ С…РѕСЃС‚ РїСЂРёРЅСѓРґРёС‚РµР»СЊРЅРѕ СЂР°Р·РѕСЂРІР°Р» СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРµ РїРѕРґРєР»СЋС‡РµРЅРёРµ', None, 10054, None))
+2019-09-13 22:33:37,309 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:37,309 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:38,862 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:38,864 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:41,199 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:41,201 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:44,659 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:44,661 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:49,808 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:49,810 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:57,488 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:33:57,489 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:08,929 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:08,932 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:26,066 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:26,067 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:51,742 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:34:51,748 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:35:30,283 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:35:30,285 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:36:00,361 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:36:00,362 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:36:57,867 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 22:37:00,435 - WARNING - Exiting immediately!
+2019-09-13 22:45:05,400 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 22:45:10,658 - INFO - пїЅпїЅпїЅпїЅпїЅпїЅ \start
+2019-09-13 22:45:55,930 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 22:48:02,909 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 22:48:45,836 - INFO - пїЅпїЅпїЅпїЅпїЅпїЅ \start
+2019-09-13 22:52:50,064 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 22:53:09,853 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 22:53:50,057 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 22:54:45,030 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 22:58:39,300 - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', None, 10054, None))
+2019-09-13 22:58:39,300 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', None, 10054, None))
+2019-09-13 22:58:41,375 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:41,375 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:42,930 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:42,932 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:45,251 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:45,253 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:48,691 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:48,693 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:53,829 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:58:53,831 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:01,519 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:01,522 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:12,968 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:12,969 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:30,096 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:30,097 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:55,809 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 22:59:55,811 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:00:34,303 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:00:34,304 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:01:04,362 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:01:04,364 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:01:34,413 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:01:34,416 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:02:04,472 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:02:04,476 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:02:34,547 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:02:34,550 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:03:04,600 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:03:04,602 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:03:34,658 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:03:34,660 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:04:04,723 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:04:04,724 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:04:34,791 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:04:34,793 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:05:04,881 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:05:04,882 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:05:34,958 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:05:34,960 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:06:05,015 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:06:05,016 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:06:35,072 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:06:35,073 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:07:05,162 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:07:05,164 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:07:13,553 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 23:07:35,163 - WARNING - Exiting immediately!
+2019-09-13 23:07:40,732 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 23:15:35,246 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 23:15:44,806 - INFO - пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ...
+2019-09-13 23:15:57,137 - INFO - User: Anna, Chat id: 296647208, Message: qwerty
+2019-09-13 23:16:05,420 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 23:18:41,187 - INFO - Bot is starting...
+2019-09-13 23:18:48,267 - INFO - User: Anna, Chat id: 296647208, Message: 123
+2019-09-13 23:19:20,797 - ERROR - Error while getting Updates: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2019-09-13 23:19:20,798 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Program Files (x86)\Python37-32\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Program Files (x86)\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None))
+2019-09-13 23:19:22,876 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:22,877 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:24,429 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:24,430 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:26,729 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:26,730 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:30,168 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:30,170 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:35,317 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:35,319 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:42,968 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:42,969 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:54,425 - ERROR - Error while getting Updates: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:19:54,427 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connection.py", line 326, in connect
+    ssl_context=context)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\util\ssl_.py", line 324, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 423, in wrap_socket
+    session=session
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 870, in _create
+    self.do_handshake()
+  File "C:\Program Files (x86)\Python37-32\lib\ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 218, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 70, in request
+    **urlopen_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\vendor\ptb_urllib3\urllib3\connectionpool.py", line 647, in urlopen
+    raise SSLError(e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 332, in _network_loop_retry
+    if not action_cb():
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\ext\updater.py", line 293, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 66, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\bot.py", line 1982, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 327, in post
+    **urlopen_kwargs)
+  File "C:\Users\AdminA\AppData\Roaming\Python\Python37\site-packages\telegram\utils\request.py", line 224, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {0}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate (_ssl.c:1076)
+2019-09-13 23:20:00,332 - INFO - Received signal 2 (SIGINT), stopping...
+2019-09-13 23:20:11,513 - WARNING - Exiting immediately!

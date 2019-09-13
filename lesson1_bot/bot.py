@@ -1,20 +1,35 @@
-from telegram.ext import Updater, CommandHandler
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+import logging
 
 
 #PROXY = {'proxy_url': 'socks5://t2.learn.python.ru:1080', 'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}} #, request_kwargs=PROXY
 
+logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
+                    level=logging.INFO,
+                    filename='bot.log'
+                    )
+
 def greet_user(bot, update):
-    print('Аня, привет!')
+    logging.info('Call \start')
+    update.message.reply_text("Привет от Ани!")
+
+
+def talk_to_me(bot,update):
+    user_text = f'Привет, {update.message.chat.first_name}! Ты написал: {update.message.text}' 
+    logging.info('User: %s, Chat id: %s, Message: %s', update.message.chat.first_name, update.message.chat.id, update.message.text) #отображает данные пользователя, отправившего сообщение
+    update.message.reply_text(user_text) # эхо-бот
 
 def main():
-    mybot = Updater('635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8',use_context = True) # создание экземпляра Updater и передача ему токена бота, который выдал BotFather
+    mybot = Updater('635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8') # создание экземпляра Updater и передача ему токена бота, который выдал BotFather
     
+    logging.info('Bot is starting...')
+
     dp = mybot.dispatcher
-    dp.add_handler(CommandHandler('start', greet_user)
-    
+    dp.add_handler(CommandHandler('start', greet_user))
+    dp.add_handler(MessageHandler(Filters.text, talk_to_me))
+
     mybot.start_polling() # запуск мониторинга событий создания новых сообщений
     mybot.idle() # команда боту работать вплоть до принудительной остановки
-
 
 
 # вызов функции
