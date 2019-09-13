@@ -1,2 +1,4 @@
 *.pyc
+*.log
 selftest.py
+settings.py

@@ -1,8 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-
-
-#PROXY = {'proxy_url': 'socks5://t2.learn.python.ru:1080', 'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}} #, request_kwargs=PROXY
+import settings
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
@@ -20,7 +18,7 @@ def talk_to_me(bot,update):
     update.message.reply_text(user_text) # эхо-бот
 
 def main():
-    mybot = Updater('635273207:AAG5IfoCXpq308G6ruXmXIqyUUstH7KT5Y8') # создание экземпляра Updater и передача ему токена бота, который выдал BotFather
+    mybot = Updater(settings.API_KEY) # создание экземпляра Updater и передача ему токена бота, который выдал BotFather
     
     logging.info('Bot is starting...')
 
