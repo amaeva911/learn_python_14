@@ -2,3 +2,4 @@
 *.log
 selftest.py
 settings.py
+ephem_bot_settings.py
