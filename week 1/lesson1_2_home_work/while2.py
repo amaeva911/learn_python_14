@@ -34,9 +34,10 @@ def ask_user_dict(dictionary):
         # запрашиваю, есть ли такой точный вопрос в справочнике, 
         # если да - вывожу значение, используя вопрос пользователя как ключ, 
         # а если такого вопроса нет - тект по умолчанию
-        if chat_dictionary.get(user_question):
-            print(chat_dictionary.get(user_question))
-            break
+        # if chat_dictionary.get(user_question):
+        #     print(chat_dictionary.get(user_question))
+        #     break
+        print(chat_dictionary.get(user_question, "нет ответа"))
 
     
 ask_user_dict(chat_dictionary)

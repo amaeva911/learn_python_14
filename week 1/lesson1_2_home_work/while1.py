@@ -22,7 +22,7 @@ def ask_user():
         user_message = input('Как твои дела? \n') 
         count += 1
 
-        if  "хорошо" in user_message.lower():
+        if  "хорошо" == user_message.lower():
             start = False # если пользователь ввел нужное, индикатор перевожу в неактивное состояние false
             
             print(f'Убедил за {count} раз')
