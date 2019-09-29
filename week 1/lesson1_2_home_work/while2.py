@@ -37,6 +37,9 @@ def ask_user_dict(dictionary):
         if chat_dictionary.get(user_question):
             print(chat_dictionary.get(user_question))
             break
+        # проще сделать так: смотрим есть ли ответ в словаре и выводим его, если нет - выводим фразу нет ответа
+        # print(chat_dictionary.get(user_question, "нет ответа"))
+        
 
     
 ask_user_dict(chat_dictionary)

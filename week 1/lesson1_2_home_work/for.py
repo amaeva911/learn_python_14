@@ -18,6 +18,15 @@ school_scores = [
     {'school_class': '4е', 'scores': [2,3,3,2,2,2,5,3,4]}
     ]
 
+# такой же вариант но без использования множества промежуточных переменных. они занимают память и дальше ты их нигде не удаляешь
+# for scores in school_scores:
+#     average_class_score = sum(school_scores['scores'])/len(school_scores['scores'])
+#     print(average_class_score)
+#     counter = counter + len(school_scores['scores'])
+#     average_school_score = average_school_marks + sum(school_scores['scores'])
+
+# average_school_marks = average_school_score / counter
+
 def count_avarage_scores(scores):
     """
     Эта функция вызывается и выводит средний бал каждому классу и по школе
