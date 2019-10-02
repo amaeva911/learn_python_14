@@ -19,14 +19,16 @@ school_scores = [
     ]
 
 average_school_marks = 0
+counter = 0
 
 for scores in school_scores:
-    average_class_score = sum(school_scores['scores'])/len(school_scores['scores'])
-    print(average_class_score)
-    counter = counter + len(school_scores['scores'])
-    average_school_score = average_school_marks + sum(school_scores['scores'])
+    average_class_score = sum(scores['scores'])/len(scores['scores'])
+    print(f" Класс: {scores['school_class']} - {average_class_score}")
+    counter = counter + len(scores['scores'])
+    average_school_score = average_school_marks + sum(scores['scores'])
 
 average_school_marks = average_school_score / counter
+print(f"Средняя оценка по школе: {average_school_marks}")
 
 # def count_avarage_scores(scores):
 #     """
